@@ -263,12 +263,9 @@ img {
 .menu-toggle {
   min-height: 40px;
   min-width: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin: 0;
   margin-left: auto;
   padding: 0;
@@ -277,6 +274,8 @@ img {
   border: none;
   border-radius: 50%;
   outline: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 @media (min-width: 768px) {
