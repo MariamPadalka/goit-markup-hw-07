@@ -77,7 +77,6 @@ img {
 }
 
 .container {
-  outline: 1px solid red;
   min-width: 320px;
   max-width: 428px;
   padding-left: 16px;
@@ -820,7 +819,6 @@ img {
 @media screen and (min-width: 768px) {
   .customers-list {
     column-gap: 24px;
-    justify-content: start;
   }
 }
 
