@@ -260,7 +260,7 @@ img {
   stroke: currentColor;
 }
 
-.menu-toggle {
+.hamburger-menu-btn {
   min-height: 40px;
   min-width: 40px;
   display: flex;
@@ -309,12 +309,6 @@ img {
 
 .menu-container.is-open {
   transform: translateX(0);
-}
-
-.menu-container .menu-toggle {
-  position: absolute;
-  top: 16px;
-  right: 16px;
 }
 
 .mobile-menu {
@@ -711,6 +705,8 @@ img {
     align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
+    background-color: var(--primary-light-color);
+    border-radius: 4px;
   }
 }
 
@@ -768,6 +764,7 @@ img {
 .team-wrapper {
   padding: 32px 16px;
   text-align: center;
+  background-color: #ffffff;
 }
 
 .socials-list {
